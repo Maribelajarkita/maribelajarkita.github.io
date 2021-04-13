@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+ <title>E-LEARNING</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+
+  body {
+ display: flex;
+ background-image: url('https://lh3.googleusercontent.com/pw/ACtC-3cKpPd33VVyA7XeZzt3EkJDUDkNK7i9MyalajRFRirdOiNTWj9w1QYtw-4LvrrbNGLfcLz-ZbnZUZQdLFyIB8XIOBrlEWkJs6SuOUM6qlYnbIqw5C68QtWgfi7VqNX8-l71-8HL7u6NJgLvLTvnKctu=w1168-h657-no');
+ background-repeat: no-repeat;
+ background-attachment: fixed;  
+ background-size: cover;
+ padding: 0px;
+ margin: 0px;
+}
+.mainpage {
+ background-color: white;
+ font-family: verdana;
+ color: green;
+ width: 80%;
+ height : auto;
+ margin: 0px;
+ padding: 0px
+}
+.judul {
+ text-align: center;
+}
+.sisi {
+ background-color: rgba(255,255,255,0);
+ color:rgba(255,255,255,0);
+ width: 10%;
+}
+.button {
+  background-color: green;
+  border: 2px solid rgb(0,255,0);
+  color: white;
+  padding: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5vw;
+  margin: auto;
+  cursor: pointer;
+  width : 40%
+}
+.button:hover {
+  border: 2px solid #4CAF50;  
+  background-color: white;
+  color: green;
+  font-size: 2.6vw;
+}
+.button:active {
+  border: 2px solid #4CAF50;  
+  background-color: white;
+  color: green;
+  font-size: 2.6vw;
+}
+.pilihanakses {
+ display: flex;
+ flex-direction: row:
+}
+@media (max-width: 800px) {
+  .pilihanakses {
+    flex-direction: column;
+  }
+}
+img {
+width: 70%;
+height: auto;
+}
+ </style>
+
+</head>
+<body>
+ 
+ <div class="sisi"> <p> p </p> </div>
+ <div class="mainpage">
+  <div class="judul">
+   <img style="width: 100%;" src="https://lh3.googleusercontent.com/pw/ACtC-3cMa_dZC-uh1-vT1Pc6gGa_gxmikGOWO87kOgs-lkLFz0B7jUakJbQ8WnbC_OAKsXkyVeL_JobBeMK1bXRfhbaaOGkbcINC69p7l8ThGmIJCzw7bY4Gn4bhW02JudDBc6HefLr2rx9YwJrOO3FTnAy0=w1259-h472-no" alt="elearn">
+   <h1>Selamat datang di Training Online Melalui E-Learning</h1>
+   <br>
+   <br>
+   <h2>klik / tekan tombol berikut untuk memulai training</h2>
+   <a href="aksesopen.html" class="button">MULAI TRAINING </a>
+   <br>
+   <br>
+  </div>
+ </div>
+</body>
